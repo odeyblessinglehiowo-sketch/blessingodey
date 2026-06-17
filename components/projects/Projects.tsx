@@ -9,9 +9,9 @@ const projects = [
       "A professional personal brand website built for Hon. Dr. Judith Ogbara, entrepreneur, philanthropist, Managing Director of Rosem Energy Limited, and aspirant for the House of Representatives in Akwa Ibom State.",
     website: "https://judithogbara.com",
     images: [
-      "/images/projects/judith/j1.webp",
-      "/images/projects/judith/j2.webp",
-      "/images/projects/judith/j3.webp",
+      "/images/projects/judith/j1.png",
+      "/images/projects/judith/j2.png",
+      "/images/projects/judith/j3.png",
     ],
   },
 
@@ -22,9 +22,9 @@ const projects = [
       "An online learning portal developed for the G4EP Digital Training initiative, providing participants with access to training resources, educational content, and structured learning experiences with certificate inclusive.",
     website: "https://portal.geeeep.com.ng",
     images: [
-      "/images/projects/g4ep/g1.webp",
-      "/images/projects/g4ep/g2.webp",
-      "/images/projects/g4ep/g3.webp",
+      "/images/projects/g4ep/g1.png",
+      "/images/projects/g4ep/g2.png",
+      "/images/projects/g4ep/g3.png",
     ],
   },
 
@@ -35,10 +35,10 @@ const projects = [
       "A modern academy platform built for Everything High, founded by Zuleihat Yusuf Oyarazi, a distinguished Nigerian titleholder, mentor, and pageant leader dedicated to talent development and education.",
     website: "https://everything-high.vercel.app/",
     images: [
-      "/images/projects/everythinghigh/e1.webp",
-      "/images/projects/everythinghigh/e2.webp",
-      "/images/projects/everythinghigh/e3.webp",
-      "/images/projects/everythinghigh/e5.webp",
+      "/images/projects/everythinghigh/e1.png",
+      "/images/projects/everythinghigh/e2.png",
+      "/images/projects/everythinghigh/e3.png",
+      "/images/projects/everythinghigh/e5.png",
     ],
   },
 
@@ -49,9 +49,9 @@ const projects = [
       "A premium corporate website developed for OdeyForge Technologies, showcasing software development services, company branding, and digital innovation solutions.",
     website: "https://odeyforge.com",
     images: [
-      "/images/projects/odeyforge/o1.webp",
-      "/images/projects/odeyforge/o2.webp",
-      "/images/projects/odeyforge/o3.webp",
+      "/images/projects/odeyforge/o1.png",
+      "/images/projects/odeyforge/o2.png",
+      "/images/projects/odeyforge/o3.png",
     ],
   },
 ];

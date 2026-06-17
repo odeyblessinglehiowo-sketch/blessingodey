@@ -94,21 +94,21 @@ export default function TakeABreakPage() {
           >
 <GameCard
   href="/take-a-break/tic-tac-toe"
-  image="/images/games/tictactoe1.webp"
+  image="/images/games/tictactoe.jpg"
   title="Tic Tac Toe"
   description="Play against me and see if you can win."
 />
 
             <GameCard
   href="/take-a-break/typing-master"
-  image="/images/games/typing-master1.webp"
+  image="/images/games/typing-master.jpg"
   title="Typing Master"
   description="Test your typing speed, accuracy, and keyboard skills."
 />
 
 <GameCard
   href="/take-a-break/memory-match"
-  image="/images/games/memory1.webp"
+  image="/images/games/memory.jpg"
   title="Memory Match"
   description="Challenge your memory by matching all card pairs."
 />
