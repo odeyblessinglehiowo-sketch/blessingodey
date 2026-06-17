@@ -142,7 +142,7 @@ export default function Contact() {
           </a>
 
           <a
-            href="/Blessing-Odey-CV.pdf"
+            href="/Blessing-Odey-Lehiowo-CV.pdf"
             download
             className="
               flex
