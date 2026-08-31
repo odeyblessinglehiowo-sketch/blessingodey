@@ -2,16 +2,36 @@ import { ArrowUpRight } from "lucide-react";
 import ProjectGallery from "@/components/projects/ProjectGallery";
 
 const projects = [
+{
+  title: "Fantasia",
+  category: "E-Commerce & Business Management Platform",
+  description:
+    "A complete e-commerce platform developed for Fantasia, featuring a polished customer storefront alongside a powerful admin dashboard for managing products, orders, customers, returns, discounts, and gallery content. The platform integrates secure authentication, Google sign-in, Paystack payments, and responsive experiences across devices, giving the business a complete digital system for running its online store.",
+  website: "https://fantasiahvw.com",
+  images: [
+    "/images/projects/fantasia/f1.webp",
+    "/images/projects/fantasia/f2.webp",
+    "/images/projects/fantasia/f3.webp",
+    "/images/projects/fantasia/f4.webp",
+    "/images/projects/fantasia/f5.webp",
+  ],
+},
+
   {
     title: "Hon. Dr. Judith Ogbara",
     category: "Political Aspirant & Business Leader",
     description:
-      "A professional personal brand website built for Hon. Dr. Judith Ogbara, entrepreneur, philanthropist, Managing Director of Rosem Energy Limited, and aspirant for the House of Representatives in Akwa Ibom State.",
+      "A professional personal brand website built for Hon. Dr. Judith Mayen Ogbara, entrepreneur, philanthropist, Managing Director of Rosem Energy Limited, and former aspirant for the House of Representatives Eket, in Akwa Ibom State.",
     website: "https://judithogbara.com",
     images: [
-      "/images/projects/judith/j1.webp",
-      "/images/projects/judith/j2.webp",
-      "/images/projects/judith/j3.webp",
+      "/images/projects/judith/jd1.webp",
+      "/images/projects/judith/jd2.webp",
+      "/images/projects/judith/jd3.webp",
+      "/images/projects/judith/jd4.webp",
+      "/images/projects/judith/jd5.webp",
+      "/images/projects/judith/jd6.webp",
+      "/images/projects/judith/jd7.webp",
+
     ],
   },
 
@@ -24,25 +44,14 @@ const projects = [
       "A modern academy platform built for Everything High, founded by Zuleihat Yusuf Oyarazi, a distinguished Nigerian titleholder, mentor, and pageant leader dedicated to talent development and education.",
     website: "https://www.everythinghighacademy.com/",
     images: [
-      "/images/projects/everythinghigh/e1.webp",
-      "/images/projects/everythinghigh/e2.webp",
-      "/images/projects/everythinghigh/e3.webp",
-      "/images/projects/everythinghigh/e5.webp",
+      "/images/projects/everythinghigh/ev1.webp",
+      "/images/projects/everythinghigh/ev2.webp",
+      "/images/projects/everythinghigh/ev3.webp",
+      "/images/projects/everythinghigh/ev4.webp",
+      "/images/projects/everythinghigh/ev5.webp",
     ],
   },
 
-  {
-    title: "OdeyForge Technologies",
-    category: "Technology Company Website",
-    description:
-      "A premium corporate website developed for OdeyForge Technologies, showcasing software development services, company branding, and digital innovation solutions.",
-    website: "https://odeyforge.com",
-    images: [
-      "/images/projects/odeyforge/o1.webp",
-      "/images/projects/odeyforge/o2.webp",
-      "/images/projects/odeyforge/o3.webp",
-    ],
-  },
 ];
 
 export default function Projects() {
