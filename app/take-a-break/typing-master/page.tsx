@@ -1,5 +1,3 @@
-"use client";
-
 import Navbar from "@/components/navbar/Navbar";
 import TypingMaster from "@/components/games/TypingMaster";
 

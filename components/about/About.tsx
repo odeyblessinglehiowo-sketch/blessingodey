@@ -76,7 +76,7 @@ export default function About() {
               "
             >
               <Image
-                src="/images/blessingol.png"
+                src="/images/blessingol.webp"
                 alt="Blessing Odey Lehiowo"
                 width={420}
                 height={520}

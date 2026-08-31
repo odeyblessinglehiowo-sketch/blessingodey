@@ -73,7 +73,7 @@ const contactLink = isGamePage ? "/#contact" : "#contact";
               "
             >
               <Image
-                src="/images/wordmark-placeholder.png"
+                src="/images/wordmark-placeholder.webp"
                 alt="Blessing Odey"
                 width={220}
                 height={50}

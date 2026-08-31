@@ -436,7 +436,7 @@ export default function TicTacToe() {
 
                   ${
                     index % 2 === 0
-                      ? "bg-[#000000]"
+                      ? "bg-[#000]"
                       : "bg-[#8A5A2B]"
                   }
 

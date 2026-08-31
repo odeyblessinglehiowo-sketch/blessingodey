@@ -1,5 +1,3 @@
-"use client";
-
 import Navbar from "@/components/navbar/Navbar";
 import MemoryMatch from "@/components/games/MemoryMatch";
 

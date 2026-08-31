@@ -30,21 +30,22 @@ export default function GameCard({
       "
     >
       <div className="overflow-hidden">
-        <Image
-          src={image}
-          alt={title}
-          width={800}
-          height={500}
-          className="
-            h-[300px]
-            lg:h-[350px]
-            w-full
-            object-cover
-            transition-transform
-            duration-500
-            group-hover:scale-105
-          "
-        />
+       <Image
+  src={image}
+  alt={title}
+  width={800}
+  height={500}
+  sizes="(max-width: 768px) 100vw, (max-width: 1280px) 50vw, 33vw"
+  className="
+    h-[300px]
+    lg:h-[350px]
+    w-full
+    object-cover
+    transition-transform
+    duration-500
+    group-hover:scale-105
+  "
+/>
       </div>
 
       <div className="p-5">

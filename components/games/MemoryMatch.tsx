@@ -20,43 +20,43 @@ type CardType = {
 const cardData = [
   {
     title: "OdeyForge",
-    image: "/images/memory/odeyforge.jpg",
+    image: "/images/memory/odeyforge.webp",
   },
   {
     title: "G4EP",
-    image: "/images/memory/g4ep.jpg",
+    image: "/images/memory/g4ep.webp",
   },
   {
     title: "Judith",
-    image: "/images/memory/judith.jpg",
+    image: "/images/memory/judith.webp",
   },
   {
     title: "Everything High",
-    image: "/images/memory/everything-high.jpg",
+    image: "/images/memory/everything-high.webp",
   },
   {
     title: "Fantasia",
-    image: "/images/memory/supabase.png",
+    image: "/images/memory/supabase.webp",
   },
   {
     title: "Tic Tac Toe",
-    image: "/images/memory/tictactoe.jpg",
+    image: "/images/memory/tictactoe.webp",
   },
   {
     title: "Typing Master",
-    image: "/images/memory/typing.jpg",
+    image: "/images/memory/typing.webp",
   },
   {
     title: "Next.js",
-    image: "/images/memory/nextjs.jpg",
+    image: "/images/memory/nextjs.webp",
   },
   {
     title: "React",
-    image: "/images/memory/react.jpg",
+    image: "/images/memory/react.webp",
   },
   {
     title: "Tailwind",
-    image: "/images/memory/tailwind.jpg",
+    image: "/images/memory/tailwind.webp",
   },
 ];
 
@@ -278,7 +278,7 @@ export default function MemoryMatch() {
         "
         style={{
           backgroundImage:
-            "url('/images/memory/board.jpg')",
+            "url('/images/memory/board.webp')",
         }}
       >
         <div
@@ -323,16 +323,17 @@ export default function MemoryMatch() {
                     "
                   >
                     <Image
-                      src={card.image}
-                      alt={card.title}
-                      width={300}
-                      height={400}
-                      className="
-                        w-full
-                        h-full
-                        object-cover
-                      "
-                    />
+  src={card.image}
+  alt={card.title}
+  width={300}
+  height={400}
+  sizes="(max-width: 1024px) 18vw, 120px"
+  className="
+    w-full
+    h-full
+    object-cover
+  "
+/>
                   </div>
                 ) : (
                   <div
@@ -358,7 +359,7 @@ export default function MemoryMatch() {
                     "
                   >
                     <Image
-  src="/images/logo.png"
+  src="/images/logo.webp"
   alt="BO"
   width={80}
   height={80}

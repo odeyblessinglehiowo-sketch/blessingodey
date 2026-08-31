@@ -3,6 +3,7 @@
 import { useState } from "react";
 import { usePathname } from "next/navigation";
 import Image from "next/image";
+import Link from "next/link";
 
 import Hamburger from "@/components/ui/Hamburger";
 import ThemeToggle from "@/components/ui/ThemeToggle";
@@ -52,12 +53,13 @@ export default function Navbar() {
 
         {/* Logo */}
 
-        <a
+        <Link
           href="/"
           className="flex items-center gap-3"
+          aria-label="Blessing Odey Home"
         >
           <Image
-            src="/images/logo-placeholder.png"
+            src="/images/logo-placeholder.webp"
             alt="BO Logo"
             width={50}
             height={50}
@@ -72,11 +74,10 @@ export default function Navbar() {
           />
 
           <Image
-            src="/images/wordmark-placeholder.png"
+            src="/images/wordmark-placeholder.webp"
             alt="Blessing Odey"
             width={180}
             height={40}
-            priority
             className="
               h-auto
               w-[140px]
@@ -84,29 +85,41 @@ export default function Navbar() {
               object-contain
             "
           />
-        </a>
+        </Link>
 
         {/* Desktop Nav */}
 
         <nav className="hidden lg:flex items-center gap-10 text-sm">
 
-          <a href={homeLink} className={navLinkClass}>
+          <a
+            href={homeLink}
+            className={navLinkClass}
+          >
             Home
           </a>
 
-          <a href={aboutLink} className={navLinkClass}>
+          <a
+            href={aboutLink}
+            className={navLinkClass}
+          >
             About
           </a>
 
-          <a href={projectsLink} className={navLinkClass}>
+          <a
+            href={projectsLink}
+            className={navLinkClass}
+          >
             Projects
           </a>
 
-          <a href={servicesLink} className={navLinkClass}>
+          <a
+            href={servicesLink}
+            className={navLinkClass}
+          >
             What I Do
           </a>
 
-          <a
+          <Link
             href="/take-a-break"
             className={`
               relative
@@ -144,9 +157,12 @@ export default function Navbar() {
             />
 
             <span>Take A Break</span>
-          </a>
+          </Link>
 
-          <a href={contactLink} className={navLinkClass}>
+          <a
+            href={contactLink}
+            className={navLinkClass}
+          >
             Contact
           </a>
 
@@ -234,6 +250,7 @@ export default function Navbar() {
               space-y-6
             "
           >
+
             <a
               href={homeLink}
               onClick={() => setMenuOpen(false)}
@@ -266,7 +283,7 @@ export default function Navbar() {
               What I Do
             </a>
 
-            <a
+            <Link
               href="/take-a-break"
               onClick={() => setMenuOpen(false)}
               className={`
@@ -290,7 +307,7 @@ export default function Navbar() {
               />
 
               Take A Break
-            </a>
+            </Link>
 
             <a
               href={contactLink}

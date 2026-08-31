@@ -13,7 +13,6 @@ export default function HeroImage() {
       "
     >
       {/* Glow */}
-
       <div
         className="
           absolute
@@ -28,7 +27,6 @@ export default function HeroImage() {
       />
 
       {/* Gold Ring */}
-
       <div
         className="
           absolute
@@ -43,7 +41,6 @@ export default function HeroImage() {
       />
 
       {/* Image Container */}
-
       <div
         className="
           relative
@@ -53,11 +50,12 @@ export default function HeroImage() {
         "
       >
         <Image
-          src="/images/blessingb.png"
+          src="/images/blessingb.webp"
           alt="Blessing Odey"
           width={550}
           height={650}
           priority
+          sizes="(max-width: 1024px) 100vw, 520px"
           className="
             w-full
             h-auto
@@ -68,7 +66,6 @@ export default function HeroImage() {
       </div>
 
       {/* Floating Card */}
-
       <div
         className="
           relative
@@ -87,7 +84,6 @@ export default function HeroImage() {
         "
       >
         <div className="flex items-center gap-3">
-
           <div
             className="
               flex
@@ -116,20 +112,14 @@ export default function HeroImage() {
               Web Developer
             </h3>
 
-            <p
-  className="
-    text-sm
-    text-[var(--muted)]
-  "
->
-  Building scalable websites
+            <p className="text-sm text-[var(--muted)]">
+              Building scalable websites
 
-  <span className="hidden lg:inline">
-    {" "}and digital experiences.
-  </span>
-</p>
+              <span className="hidden lg:inline">
+                {" "}and digital experiences.
+              </span>
+            </p>
           </div>
-
         </div>
       </div>
     </div>

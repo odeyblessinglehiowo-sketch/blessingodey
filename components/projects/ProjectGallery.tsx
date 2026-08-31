@@ -39,19 +39,20 @@ export default function ProjectGallery({
     shadow-[0_25px_60px_rgba(0,0,0,0.12)]
   "
 >
-        <Image
-          src={coverImage}
-          alt={title}
-          width={1000}
-          height={700}
-          className="
-            w-full
-            h-auto
-            transition-transform
-            duration-700
-            group-hover:scale-[1.03]
-          "
-        />
+       <Image
+  src={coverImage}
+  alt={`${title} website preview`}
+  width={1000}
+  height={700}
+  sizes="(max-width: 1024px) 100vw, 50vw"
+  className="
+    w-full
+    h-auto
+    transition-transform
+    duration-700
+    group-hover:scale-[1.03]
+  "
+/>
 
         {/* Gradient Overlay */}
 

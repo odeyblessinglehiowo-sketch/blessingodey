@@ -1,5 +1,3 @@
-"use client";
-
 import Navbar from "@/components/navbar/Navbar";
 import Footer from "@/components/footer/Footer";
 
@@ -24,7 +22,6 @@ export default function TakeABreakPage() {
           {/* Hero */}
 
           <div className="max-w-4xl">
-
             <p
               className="
                 text-amber-400
@@ -62,25 +59,25 @@ export default function TakeABreakPage() {
               Take a few minutes to relax and challenge
               yourself with one of these mini games.
             </p>
-        
-
           </div>
-{/* Games Section Header */}
 
-<div className="mt-2 mb-1">
-  <p
-    className="
-      text-amber-400
-      uppercase
-      tracking-[0.25em]
-      text-xs
-      lg:text-sm
-      font-bold
-    "
-  >
-    Choose Your Challenge
-  </p>
-</div>
+          {/* Games Section Header */}
+
+          <div className="mt-2 mb-1">
+            <p
+              className="
+                text-amber-400
+                uppercase
+                tracking-[0.25em]
+                text-xs
+                lg:text-sm
+                font-bold
+              "
+            >
+              Choose Your Challenge
+            </p>
+          </div>
+
           {/* Games */}
 
           <div
@@ -92,34 +89,29 @@ export default function TakeABreakPage() {
               gap-6
             "
           >
-<GameCard
-  href="/take-a-break/tic-tac-toe"
-  image="/images/games/tictactoe.jpg"
-  title="Tic Tac Toe"
-  description="Play against me and see if you can win."
-/>
+            <GameCard
+              href="/take-a-break/tic-tac-toe"
+              image="/images/games/tictactoe.webp"
+              title="Tic Tac Toe"
+              description="Play against me and see if you can win."
+            />
 
             <GameCard
-  href="/take-a-break/typing-master"
-  image="/images/games/typing-master.jpg"
-  title="Typing Master"
-  description="Test your typing speed, accuracy, and keyboard skills."
-/>
+              href="/take-a-break/typing-master"
+              image="/images/games/typing-master.webp"
+              title="Typing Master"
+              description="Test your typing speed, accuracy, and keyboard skills."
+            />
 
-<GameCard
-  href="/take-a-break/memory-match"
-  image="/images/games/memory.jpg"
-  title="Memory Match"
-  description="Challenge your memory by matching all card pairs."
-/>
-
-
-
+            <GameCard
+              href="/take-a-break/memory-match"
+              image="/images/games/memory.webp"
+              title="Memory Match"
+              description="Challenge your memory by matching all card pairs."
+            />
           </div>
 
         </div>
-        
-       
       </main>
 
       <Footer />

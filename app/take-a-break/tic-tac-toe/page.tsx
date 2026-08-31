@@ -1,5 +1,3 @@
-"use client";
-
 import Navbar from "@/components/navbar/Navbar";
 import TicTacToe from "@/components/games/TicTacToe";
 
@@ -9,15 +7,15 @@ export default function TicTacToePage() {
       <Navbar />
 
       <main
-  className="
-    min-h-screen
-    bg-[var(--background)]
-    text-[var(--foreground)]
-    px-6
-    pt-22
-    pb-20
-  "
->
+        className="
+          min-h-screen
+          bg-[var(--background)]
+          text-[var(--foreground)]
+          px-6
+          pt-22
+          pb-20
+        "
+      >
         <div className="max-w-5xl mx-auto">
 
           {/* Header */}
@@ -37,14 +35,14 @@ export default function TicTacToePage() {
             </p>
 
             <h1
-  className="
-    mt-2
-    text-3xl
-    md:text-5xl
-    font-extrabold
-    text-[var(--foreground)]
-  "
->
+              className="
+                mt-2
+                text-3xl
+                md:text-5xl
+                font-extrabold
+                text-[var(--foreground)]
+              "
+            >
               Play Against Me
             </h1>
 
