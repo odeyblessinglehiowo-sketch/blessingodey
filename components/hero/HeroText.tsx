@@ -28,13 +28,11 @@ export default function HeroText() {
           tracking-tight
         "
       >
-        Building Modern
-        <br />
-        Websites That
+        I Build Websites
         <br />
 
         <span className="text-amber-300">
-          Drive Real Results
+          That Work as Hard  <br />As You Do.
         </span>
       </h1>
 
@@ -49,9 +47,9 @@ export default function HeroText() {
             leading-relaxed
           "
         >
-          I'm Blessing Odey Lehiowo, a Web Developer who helps
-          businesses, organizations, and startups transform ideas
-          into fast, modern, and conversion-focused websites.
+          For online stores, NGOs, public figures, and more, 
+          I build fast, modern websites and web applications that make your 
+          work easier to find, easier to trust, and easier to act on.
         </p>
 
         <p
@@ -128,7 +126,7 @@ export default function HeroText() {
       hover:text-amber-400
     "
   >
-    Let's Talk
+    Start a Project
 
     <ArrowUpRight
       size={20}

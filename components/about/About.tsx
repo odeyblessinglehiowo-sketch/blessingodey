@@ -5,7 +5,7 @@ export default function About() {
     <section
       id="about"
       className="
-        py-24
+        py-14
         lg:py-22
         px-6
         bg-[var(--background)]
@@ -144,48 +144,50 @@ export default function About() {
           <h2
             className="
               text-2xl
-              lg:text-5xl
-              font-extrabold
+              lg:text-4xl
+              font-bold
+              lg:font-extrabold
               leading-tight
               mb-8
               text-[var(--foreground)]
             "
           >
-            Turning Ideas Into
+            Websites Built Around
             <br />
 
             <span className="text-amber-400">
-              Useful Web Experiences
+              What You're Trying To Achieve
             </span>
           </h2>
 
           <div
             className="
-              space-y-6
+            mt-[-20]
+              space-y-3
               text-lg
               lg:text-xl
+              lg:space-y-3
               leading-relaxed
               text-[var(--foreground)]
             "
           >
             <p>
-              I'm Blessing Odey Lehiowo, a Web Developer focused on
-              building modern, responsive, and user-friendly websites
-              that help businesses establish a strong digital presence.
+              I'm Blessing Odey Lehiowo, a web developer who builds 
+              for people with real goals to hit: stores that need to sell, 
+              organizations that need to be trusted, and leaders who need to be seen. 
+              I've built e-commerce platforms with payments and admin dashboards, 
+              institutional sites, NGO platforms, and personal brand websites.
             </p>
 
             <p >
-              I work primarily with React, Next.js, TypeScript,
-              Tailwind CSS, Node.js, PostgreSQL, Supabase,
-              and modern web technologies to build fast,
-              scalable, and maintainable web applications.
+              I work with React, Next.js, TypeScript, Tailwind CSS, Node.js, PostgreSQL, 
+              and Supabase, so what I build is fast, secure, and easy to grow. 
+              That means proper authentication, content systems you can update yourself, and SEO from day one.
             </p>
 
             <p >
-              Whether it's a business website, portfolio,
-              web application, or custom platform, my goal
-              is always the same: create solutions that
-              provide real value to users and businesses.
+              Every project starts with one question: what should someone do when they land on this site? Buy, 
+              donate, apply, get in touch. I design and build everything around that answer.
             </p>
           </div>
 

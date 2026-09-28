@@ -46,7 +46,7 @@ export default function Process() {
         py-10
         lg:py-20
         px-6
-        bg-[var(--background)]
+         bg-[var(--section)]
       "
     >
       <div className="max-w-7xl mx-auto">

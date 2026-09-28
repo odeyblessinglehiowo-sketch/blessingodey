@@ -16,7 +16,20 @@ const projects = [
     "/images/projects/fantasia/f5.webp",
   ],
 },
-
+{
+  title: "GEEEEP",
+  category: "Institutional",
+  description:
+    "A modern institutional website developed for GEEEEP, an initiative under the Office of the Senior Special Assistant to the President on Student Engagements. The platform provides a responsive digital presence for showcasing programmes, impact, news, gallery content, and organisational information. It features a dynamic news system with rich media support, a protected contact form with automated email confirmations, SEO optimisation, and a production setup powered by Next.js, Vercel, Cloudflare, and Resend.",
+  website: "https://geeeep.com",
+  images: [
+    "/images/projects/geeeep/g1.webp",
+    "/images/projects/geeeep/g2.webp",
+    "/images/projects/geeeep/g3.webp",
+    "/images/projects/geeeep/g4.webp",
+    "/images/projects/geeeep/g5.webp",
+  ],
+},
   {
     title: "Hon. Dr. Judith Ogbara",
     category: "Political Aspirant & Business Leader",
@@ -24,7 +37,7 @@ const projects = [
       "A professional personal brand website built for Hon. Dr. Judith Mayen Ogbara, entrepreneur, philanthropist, Managing Director of Rosem Energy Limited, and former aspirant for the House of Representatives Eket, in Akwa Ibom State.",
     website: "https://judithogbara.com",
     images: [
-      "/images/projects/judith/jd1.webp",
+      "/images/projects/judith/jd01.webp",
       "/images/projects/judith/jd2.webp",
       "/images/projects/judith/jd3.webp",
       "/images/projects/judith/jd4.webp",
@@ -35,7 +48,20 @@ const projects = [
     ],
   },
 
-  
+  {
+  title: "AAE Foundation",
+  category: "NGO & Community Impact Website",
+  description:
+    "A modern, high-performance website developed for AAE Foundation to showcase its work in education, women and youth empowerment, healthcare, scholarships, and community development. The platform features responsive pages for programmes, impact, stories, get involved, and contact, alongside a dynamic news system powered by Prisma and Neon PostgreSQL, helping the organisation share its latest initiatives while maintaining a polished and accessible digital presence.",
+  website: "https://aaefoundation.org.ng",
+  images: [
+    "/images/projects/aae/aae1.webp",
+    "/images/projects/aae/aae2.webp",
+    "/images/projects/aae/aae3.webp",
+    "/images/projects/aae/aae4.webp",
+    "/images/projects/aae/aae5.webp",
+  ],
+},
 
   {
     title: "Everything High Academy",
@@ -59,7 +85,7 @@ export default function Projects() {
     <section
       id="projects"
       className="
-        py-20
+        py-10
         px-6
         bg-[var(--background)]
       "
@@ -101,7 +127,8 @@ export default function Projects() {
           <p
             className="
               mt-3
-              text-xl
+              text-md
+              lg:text-xl
               text-[var(--muted)]
             "
           >
@@ -122,7 +149,7 @@ export default function Projects() {
               className={`
                 grid
                 lg:grid-cols-2
-                gap-8 lg:gap-14
+                gap-5 lg:gap-14
                 items-center
                 ${
                   index % 2 === 1
@@ -190,7 +217,7 @@ export default function Projects() {
                 <h3
                   className="
                     mt-4
-                    text-2xl
+                    text-xl
 md:text-4xl
 lg:text-5xl
                     font-extrabold
@@ -203,7 +230,7 @@ lg:text-5xl
                 <p
                   className="
                     mt-6
-                    text-lg
+                    text-md
                     leading-relaxed
                     text-[var(--muted)]
                   "

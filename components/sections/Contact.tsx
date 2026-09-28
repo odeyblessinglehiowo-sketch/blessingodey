@@ -23,7 +23,7 @@ export default function Contact() {
         py-20
         lg:py-24
         px-6
-        bg-[var(--section)]
+         bg-[var(--background)]
         overflow-hidden
       "
     >
