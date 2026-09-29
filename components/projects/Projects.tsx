@@ -68,7 +68,7 @@ const projects = [
     category: "Modeling & Talent Development Academy",
     description:
       "A modern academy platform built for Everything High, founded by Zuleihat Yusuf Oyarazi, a distinguished Nigerian titleholder, mentor, and pageant leader dedicated to talent development and education.",
-    website: "https://www.everythinghighacademy.com/",
+    website: "https://everything-high.vercel.app/",
     images: [
       "/images/projects/everythinghigh/ev1.webp",
       "/images/projects/everythinghigh/ev2.webp",
