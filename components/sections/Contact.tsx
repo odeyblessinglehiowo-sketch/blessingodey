@@ -184,7 +184,7 @@ export default function Contact() {
           {/* Email */}
 
           <a
-            href="mailto:odeyblessinglehiowo@gmail.com"
+            href="mailto:hello@blessingodey.com"
             className="
               group
               p-5
@@ -234,7 +234,7 @@ export default function Contact() {
                 text-[var(--muted)]
               "
             >
-              Send an email
+              hello@blessingodey.com
             </p>
           </a>
 
